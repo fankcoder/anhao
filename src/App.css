@@ -1,0 +1,69 @@
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+.layout {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  background-color: #E9FEFE ;
+}
+
+.Side {
+  background: #36B8B8;
+  align-items: ;
+}
+
+.search-box {
+  width: 60%;
+}
+
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+}
+
+.register-login {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 100%;
+  height: 50px;
+}
+
+.loginButton {
+  margin-right: 100px;
+}
+
+.menuall {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+}
+
+.category {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 900px;
+  padding-top: 20px;
+}
+
+.cardBox {
+  width: 300px;
+}
