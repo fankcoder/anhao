@@ -118,7 +118,13 @@ const Home = () => {
           </div>
         </div>
       </Content>
-
+      <div>
+      <bottom>
+          <p>Copyright © 2023- CaiQingTu. All Rights Reserved. 成都采青兔食品有限公司 版权所有</p>
+          <a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020287" target="_blank">京公网安备 11010802017518</a>
+          <a href="https://beian.miit.gov.cn/" target="_blank">蜀ICP备2023002749号-1</a>
+      </bottom>
+      </div>
     </Layout>
 
   );
