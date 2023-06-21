@@ -9,12 +9,46 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: stretch;
-  background-color: #E9FEFE ;
+}
+
+.site-layout {
+  background-color: #fff;
+  color: #6c8d9d;
+}
+
+.logo {
+  display: flex;
+  width: 100%;
+  max-width: 500px;
+  height: 120px;
+  font-size: 36px;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
 }
 
 .Side {
-  background: #36B8B8;
-  align-items: ;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center; */
+}
+
+.SideDiv {
+
+}
+
+.showLogin {
+  position: absolute;
+  opacity: 1;
+}
+
+.hiddenLogin {
+  position: absolute;
+  opacity: 0;
 }
 
 .search-box {
@@ -55,15 +89,28 @@ ul {
 .category {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-content: space-around;
+  justify-content: space-evenly;
+  align-content: center;
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-  height: 900px;
+  /* height: 900px; */
   padding-top: 20px;
 }
 
 .cardBox {
   width: 300px;
+}
+
+.cardItem {
+  height: 300px;
+  max-width: 300px;
+  margin-top: 20px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
