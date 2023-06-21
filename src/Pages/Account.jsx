@@ -143,12 +143,18 @@ function AccountDetail() {
     }, []);
 
     return (
-        <div style={{flex:1, flexDirection: 'column', justifyContent:'center', alignItems:'center'}}>
+      <Layout
+      className="site-layout"
+      >
+      <Content>
+        <div style={{flex:1, flexDirection: 'column', justifyContent:'center', alignItems:'center',}}>
           <div>账户手机号：{userInfo.username}</div>
           <div>金币：{userInfo.extra.coin}</div>
           <div>提问次数：{userInfo.extra.gpt}</div>
           <div>好友暗号：{userInfo.invite.anhao}</div>
         </div>
+        </Content>
+      </Layout>
     )
 }
 

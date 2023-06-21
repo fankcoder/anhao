@@ -68,7 +68,8 @@ class Home extends Component {
                 <Link to="/account">注册/登录</Link>
               </Button>
             </div>
-            <div className="logo">ChatGPT-智能助手小智网页端</div>
+            <div className="logo">智能助手小智</div>
+            <span style={{marginBottom:20}}>提问请使用移动端App</span>
             <div className="search-box">
               <TextArea size="large" rows={4} placeholder="提示词搜索框" autoSize={{ minRows: 3, maxRows: 5 }}  maxLength={'80%'} />
             </div>

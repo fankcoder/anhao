@@ -3,7 +3,8 @@ import {
     HomeFilled,
     CommentOutlined,
     StarFilled,
-    UserOutlined
+    UserOutlined,
+    AndroidOutlined
   } from '@ant-design/icons';
 import {  Menu, Layout  } from 'antd';
 import './Nav.css'
@@ -25,6 +26,7 @@ function getItem(label, key, icon, children) {
     getItem('社区', '2', <CommentOutlined />),
     getItem('收藏', '3', <StarFilled />),
     getItem('账户', '4', <UserOutlined />),
+    getItem('移动端APP下载', '5', <AndroidOutlined />),
   ]
   
   // 导航栏组件
@@ -44,6 +46,8 @@ function Navbar() {
       navigate("/");
     } else if (e.key === '4') {
       navigate("/account");
+    } else if (e.key === '5') {
+      navigate("/download");
     }
 
   };
