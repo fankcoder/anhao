@@ -1,7 +1,7 @@
 export var access_token = ""
-const host = "http://192.168.3.13:8000/api/"
-export const ws = "ws://192.168.3.13:4000"
-// const host = "https://xijiayi.store/api/"
+// const host = "http://192.168.3.13:8000/api/"
+// export const ws = "ws://192.168.3.13:4000"
+const host = "https://xijiayi.store/api/"
 // export const ws = "wss://xijiayi.store:443/socket.io/"
 export var userInfo = {
     "username": "未登录",
