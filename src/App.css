@@ -32,12 +32,24 @@ ul {
   height: 100%;
 }
 
-.Side {
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  justify-items: center; */
+.home {
+  margin-left: 5%;
+  min-height: 800px;
+  max-height: 1800px;
+  max-width: 1200px;
+}
+
+.divImg {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  justify-items: center;
+}
+
+.homeImg {
+  height: 600px;
+  width: 300px;
+  margin: 20px;
 }
 
 .SideDiv {

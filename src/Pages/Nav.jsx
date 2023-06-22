@@ -41,7 +41,7 @@ function Navbar() {
     if (e.key === '1'){
       navigate("/");
     } else if (e.key === '2') {
-      navigate("/");
+      navigate("/community");
     } else if (e.key === '3') {
       navigate("/");
     } else if (e.key === '4') {
