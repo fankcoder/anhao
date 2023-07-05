@@ -16,11 +16,11 @@ function Home() {
     className="site-layout"
     >
       <Content className='home'>
-        <div className="logo">智能助手小智</div>
+        <div className="logo">智能工作助手</div>
         <div style={{marginBottom:20}}>
-          <Link to="/download">下载移动端-智能助手小智App</Link>
+          <Link to="/download">下载移动端-智能工作助手App</Link>
           <br />
-          <span>应用名称: 智能助手小智</span>
+          <span>应用名称: 智能工作助手</span>
           <br />
           <br />
           <span>应用详细信息:</span>
