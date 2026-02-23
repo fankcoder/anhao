@@ -1,0 +1,35 @@
+<svg width="134" height="176" viewBox="0 0 134 176" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g style="transform:scaleY(-1);transform-origin:center">
+        <circle id="Ellipse 2108" cx="91.4409" cy="2" r="2" fill="#7986A3"/>
+        <circle id="Ellipse 2109" cx="91" cy="6.56805" r="2" fill="#7986A3"/>
+        <circle id="Ellipse 2110" cx="90.3474" cy="24.0244" r="2" fill="#7986A3"/>
+        <circle id="Ellipse 2111" cx="91" cy="45.3147" r="2" fill="#7986A3"/>
+        <circle id="Ellipse 2112" cx="88.7775" cy="67.3709" r="2" fill="#7986A3"/>
+        <circle id="Ellipse 2113" cx="85.574" cy="98.989" r="2" fill="#7986A3"/>
+        <circle id="Ellipse 2114" cx="93.2163" cy="121.519" r="2" fill="#7986A3"/>
+        <circle id="Ellipse 2115" cx="101.879" cy="131.464" r="2" fill="#7986A3"/>
+        <circle id="Ellipse 2116" cx="120.722" cy="143.537" r="2" fill="#7986A3"/>
+        <circle id="Ellipse 2117" cx="131.366" cy="146.8" r="2" fill="#7986A3"/>
+        <circle id="Ellipse 2118" cx="122.23" cy="156.425" r="2" fill="#7986A3"/>
+        <circle id="Ellipse 2119" cx="93.2163" cy="164.419" r="2" fill="#7986A3"/>
+        <circle id="Ellipse 2120" cx="70.4578" cy="159.933" r="2" fill="#7986A3"/>
+        <circle id="Ellipse 2121" cx="54.8775" cy="157.933" r="2" fill="#7986A3"/>
+        <circle id="Ellipse 2122" cx="31.8742" cy="152.425" r="2" fill="#7986A3"/>
+        <circle id="Ellipse 2123" cx="17.7623" cy="148.425" r="2" fill="#7986A3"/>
+        <circle id="Ellipse 2124" cx="9.3604" cy="151.28" r="2" fill="#7986A3"/>
+        <circle id="Ellipse 2125" cx="4.31931" cy="156.425" r="2" fill="#7986A3"/>
+        <circle id="Ellipse 2126" cx="2.31931" cy="160.912" r="2" fill="#7986A3"/>
+        <circle id="Ellipse 2127" cx="5.90846" cy="167.193" r="2" fill="#7986A3"/>
+        <circle id="Ellipse 2128" cx="14.2288" cy="169.193" r="2" fill="#7986A3"/>
+        <circle id="Ellipse 2129" cx="36.8242" cy="169.764" r="2" fill="#7986A3"/>
+        <circle id="Ellipse 2130" cx="57.8697" cy="171.193" r="2" fill="#7986A3"/>
+        <circle id="Ellipse 2131" cx="82.015" cy="171.764" r="2" fill="#7986A3"/>
+        <circle id="Ellipse 2132" cx="98.264" cy="173.764" r="2" fill="#7986A3"/>
+        <circle cx="117.441" cy="2" r="2" fill="#fff">
+            <animate fill="freeze" attributeName="cx" calcMode="discrete" dur="3s" repeatCount="indefinite"
+                     values="91.4409;91;90.3474;91;88.7775;85.574;93.2163;101.879;120.722;131.366;122.23;93.2163;70.4578;54.8775;31.8742;17.7623;9.3604;4.31931;2.31931;5.90846;14.2288;36.8242;57.8697;82.015;98.264"/>
+            <animate fill="freeze" attributeName="cy" calcMode="discrete" dur="3s" repeatCount="indefinite"
+                     values='2;6.56805;24.0244;45.3147;67.3709;98.989;121.519;131.464;143.537;146.8;156.425;164.419;159.933;157.933;152.425;148.425;151.28;156.425;160.912;167.193;169.193;169.764;171.193;171.764;173.764'/>
+        </circle>
+    </g>
+</svg>

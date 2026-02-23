@@ -1,0 +1,144 @@
+/* components/CS2Commands.module.css */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: "#9facc6",
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.2rem;
+  color: #ff5722;
+}
+
+.searchContainer {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.searchInput {
+  width: 100%;
+  max-width: 500px;
+  padding: 12px 15px;
+  border-radius: 4px;
+  border: 1px solid #444;
+  background-color: #192234;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: #ff5722;
+}
+
+.categoryNav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 25px;
+}
+
+.categoryButton {
+  padding: 8px 16px;
+  background-color: #192234;
+  color: #9facc6;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-size: 0.9rem;
+}
+
+.categoryButton:hover {
+  background-color: #356aac;
+}
+
+.categoryButton.active {
+  background-color: #356aac;
+}
+
+.commandsTable {
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: #192234;
+}
+
+.tableHeader {
+  display: grid;
+  grid-template-columns: 2fr 2fr 3fr;
+  color: #fff;
+  font-weight: bold;
+  padding: 12px 15px;
+  border: 1px solid #333;
+}
+
+.headerCell {
+  padding: 8px;
+}
+
+.commandRow {
+  display: grid;
+  grid-template-columns: 2fr 2fr 3fr;
+  padding: 12px 15px;
+  border-bottom: 1px solid #333;
+  transition: background-color 0.2s;
+}
+
+.commandRow:hover {
+  background-color: #254975;
+}
+
+.commandCell, .descCell, .valuesCell, .exampleCell {
+  padding: 8px;
+  color: #ddd;
+  word-break: break-all;
+  white-space: normal;  
+}
+
+.commandCell code, .exampleCell code {
+  background-color: #2a2a2a;
+  padding: 2px 6px;
+  border-radius: 3px;
+  color: #ff8a65;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.noResults {
+  padding: 20px;
+  text-align: center;
+  color: #aaa;
+}
+
+@media (max-width: 768px) {
+  .tableHeader, .commandRow {
+    grid-template-columns: 1fr;
+  }
+  
+  .headerCell {
+    display: none;
+  }
+  
+  .commandCell::before {
+    content: "命令: ";
+    font-weight: bold;
+    color: #ff5722;
+  }
+  
+  .descCell::before {
+    content: "描述: ";
+    font-weight: bold;
+    color: #ff5722;
+  }
+  
+  .exampleCell::before {
+    content: "示例: ";
+    font-weight: bold;
+    color: #ff5722;
+  }
+}
